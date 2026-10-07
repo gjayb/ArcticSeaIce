@@ -1,0 +1,164 @@
+box_dimensions:
+  area_EArc: 5954496720000.0
+  area_WArc: 9038622100000.0
+  area_NGreen: 1182791850000.0
+  area_SGreen: 985961930000.0
+  area_NAtl: 22000000000000.0
+  area_NPac: 10000000000000.0
+  Lx_east: 6400000.0
+  Ly_east: 193000.0
+  Lx_west: 82000.0
+  Ly_west: 1000000.0
+  d_ocean: 100
+
+init_conditions:
+  T_ocean_EArc: 1.0
+  T_ocean_WArc: 1.0
+  S_ocean_EArc: 34.0
+  S_ocean_WArc: 34.0
+  h_ice_EArc: 1.5
+  h_ice_WArc: 1.0
+  SIC_EArc: 0.75
+  SIC_WArc: 0.55
+  T_icesurface_EArc: -20.0
+  T_icesurface_WArc: -20.0
+  T_icebottom_EArc: -1.85
+  T_icebottom_WArc: -1.85
+  ice_type_EArc: 2
+  ice_type_WArc: 2
+
+box_params:
+  albedo_ice: 0.6
+  albedo_ocean: 0.06
+  S_newice: 14
+  cloudcover: 0.832
+  mixing_coefficient: 1000
+  current_NAtl: 3500000.0
+  current_NPac: 1000000.0
+  T_NAtl: 4
+  S_NAtl: 35.06
+  T_NPac: 5.19
+  S_NPac: 33.83
+  T_deep: -1.85
+  S_deep: 34.5
+  Kv: 1.0e-05
+
+box_params_EArc:
+  k_ice_mean: 2.115
+  k_ice_amp: -0.025
+  T_atm: [.nan]
+  T_atm_mean: -12.8
+  T_atm_amp: -14.6
+  dewpt_atm_mean: -10.095
+  dewpt_atm_amp: -16.205
+  dewpt_ice_mean: -9.05
+  dewpt_ice_amp: -16.95
+  river_monthly:
+    - 0.0245
+    - 0.0226
+    - 0.0226
+    - 0.0207
+    - 0.0829
+    - 0.2262
+    - 0.115
+    - 0.0867
+    - 0.0716
+    - 0.0509
+    - 0.0302
+    - 0.0264
+  precip_monthly:
+    - 5
+    - 5
+    - 5
+    - 5
+    - 8
+    - 12
+    - 20
+    - 23
+    - 30
+    - 25
+    - 14
+    - 10
+  shortwave_mean: 50
+  shortwave_amp: 125
+  U10m_atm: 5
+  Lice_daily: 0.0
+  Lice_length: 0.0
+  Eice_daily: 0.0
+  add_h_ice_intervention_monthly:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  T_atm_noise_scale: 0.0
+
+box_params_WArc:
+  k_ice_mean: 1.985
+  k_ice_amp: -0.105
+  T_atm: [.nan]
+  T_atm_mean: -10.5
+  T_atm_amp: -13.7
+  dewpt_atm_mean: -10.095
+  dewpt_atm_amp: -16.205
+  dewpt_ice_mean: -9.05
+  dewpt_ice_amp: -16.95
+  river_monthly:
+    - 0.0052
+    - 0.0052
+    - 0.0052
+    - 0.0052
+    - 0.0182
+    - 0.0260
+    - 0.0221
+    - 0.0169
+    - 0.0140
+    - 0.0114
+    - 0.0065
+    - 0.0052
+  precip_monthly:
+    - 5
+    - 5
+    - 5
+    - 5
+    - 8
+    - 12
+    - 20
+    - 23
+    - 30
+    - 25
+    - 14
+    - 10
+  shortwave_mean: 50
+  shortwave_amp: 125
+  U10m_atm: 5
+  Lice_daily: 0.0
+  Lice_length: 0.0
+  Eice_daily: 0.0
+  add_h_ice_intervention_monthly:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  T_atm_noise_scale: 0.0
+
+time_step:
+  n_years: 50
+  seasonal_cycle_period: 1
+  seasonal_cycle_start_step: 0
+  days_per_year: 365
